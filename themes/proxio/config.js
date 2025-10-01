@@ -25,7 +25,7 @@ const CONFIG = {
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
   PROXIO_BLOG_TITLE: '作品',
   PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-  PROXIO_BLOG_TEXT_1: '我的最新动态',
+  PROXIO_BLOG_TEXT_1: '最新动态',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
   PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -37,35 +37,35 @@ const CONFIG = {
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-  PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
-  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+  PROXIO_FEATURE_TITLE: '为什么选择我们',
+  PROXIO_FEATURE_TEXT_1: '平台优势',
+  PROXIO_FEATURE_TEXT_2: '全链路生态，双轮驱动，专家资源',
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
   PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-  PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
+  PROXIO_FEATURE_1_TITLE_1: '全链路生态',
   PROXIO_FEATURE_1_TEXT_1:
-    '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    '从健康档案 → 医疗服务 → 康复管理 → 电商体系 → 培训教育 → 数据服务',
 
   PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
   PROXIO_FEATURE_2_ICON_IMG_URL: '',
-  PROXIO_FEATURE_2_TITLE_1: '协作式流程',
-  PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的设计',
+  PROXIO_FEATURE_2_TITLE_1: '双轮驱动',
+  PROXIO_FEATURE_2_TEXT_1: '数字化平台 + 实体健康城，线上线下融合',
 
   PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
   PROXIO_FEATURE_3_ICON_IMG_URL: '',
-  PROXIO_FEATURE_3_TITLE_1: '细节把控',
+  PROXIO_FEATURE_3_TITLE_1: '专家资源',
   PROXIO_FEATURE_3_TEXT_1:
-    '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+    '联合专家团队，科研转化与产业落地并行',
 
   PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
-  PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+  PROXIO_FEATURE_BUTTON_URL: 'https://9dyh.com', // 按钮跳转
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '生涯',
-  PROXIO_CAREER_TEXT: '以下是我的职业生涯',
+  PROXIO_CAREER_TITLE: '简介',
+  PROXIO_CAREER_TEXT: '公司简介',
 
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
@@ -177,33 +177,34 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: '平台优势',
-  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TITLE: '公司简介',
+  PROXIO_ABOUT_TEXT_1: '浙江玖都健康管理有限公司（玖都云），是一家专注于 **健康管理平台建设与运营、康复医疗服务、医学检验、健康城项目开发、电商与教育培训** 的创新型企业。',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+    '我们依托“玖都健康城”实体项目，融合 **数字化平台 + 线下实体**，打造智慧健康生态，服务于 **政府、企业、社区与家庭** 四大场景，致力于成为全国领先的“全生命周期健康管理”平台。
+',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
-  PROXIO_ABOUT_KEY_1: '经验年限',
-  PROXIO_ABOUT_VAL_1: '10年+',
-  PROXIO_ABOUT_KEY_2: '客户',
-  PROXIO_ABOUT_VAL_2: '1000+',
-  PROXIO_ABOUT_KEY_3: '交付项目',
-  PROXIO_ABOUT_VAL_3: '5000+',
-  PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-  PROXIO_ABOUT_VAL_4: '10000+',
+  PROXIO_ABOUT_KEY_1: '项目经验',
+  PROXIO_ABOUT_VAL_1: '10年+ 健康管理与医疗服务项目经验',
+  PROXIO_ABOUT_KEY_2: '合作伙伴',
+  PROXIO_ABOUT_VAL_2: '100+ 医院/社区/企业合作',
+  PROXIO_ABOUT_KEY_3: '累计服务人群',
+  PROXIO_ABOUT_VAL_3: '50万+ 居民建档与健康服务',
+  PROXIO_ABOUT_KEY_4: '平台支撑时长',
+  PROXIO_ABOUT_VAL_4: '10000+ 小时系统开发与运营积累',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
-  PROXIO_ABOUT_BUTTON_TEXT: '关于我',
+  PROXIO_ABOUT_BUTTON_TEXT: '关于我们',
 
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    'Web Design',
-    'Logo Design',
-    'Mobile App Design',
-    'Product Design'
+    '全链路生态',
+    '双轮驱动',
+    '专家资源',
+    '政府合作'
   ],
 
-  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  PROXIO_FOOTER_SLOGAN: '我们通过技术为您创造数字体验。',
 
   // 页脚三列菜单组
   // 页脚菜单
@@ -212,11 +213,11 @@ const CONFIG = {
       name: '友情链接',
       menus: [
         {
-          title: 'Tangly的学习笔记',
+          title: '玖都健康城官网',
           href: 'https://blog.tangly1024.com'
         },
         {
-          title: 'NotionNext',
+          title: '关注公众号',
           href: 'https://www.tangly1024.com'
         }
       ]
@@ -238,7 +239,7 @@ const CONFIG = {
           href: 'https://github.com/tangly1024/NotionNext/discussions'
         },
         {
-          title: '关于作者',
+          title: '联系我们',
           href: 'https://blog.tangly1024.com/about'
         }
       ]
@@ -264,7 +265,7 @@ const CONFIG = {
   // 页面底部的行动呼吁模块
   PROXIO_CTA_ENABLE: true,
   PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+  PROXIO_CTA_TITLE_2: '立刻关注您的健康',
   PROXIO_CTA_DESCRIPTION:
     '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
